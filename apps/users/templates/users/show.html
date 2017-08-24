@@ -11,7 +11,7 @@
     <p>Full Name: {{ user.first_name }}  {{ user.last_name }}</p>
     <p>Email: {{ user.email }}</P>
     <p>Created at: {{ user.created_at }}</p>
-    <p><a href="/users/{{ user.id }}/edit">Edit</a>  |  <a href="/users/{{ user.id }}/destroy">Delete</a></p>
+    <p><a href="/{{ user.id }}/edit">Edit</a>  |  <a href="/{{ user.id }}/destroy">Delete</a></p>
 
   </body>
 </html>
